@@ -11,6 +11,6 @@ def length_of_longest(my_list):
 # -------- Testing the function : ----------
 
 if __name__ == "__main__" :
-    the_list = [hi, some, seventeen, hello, too ]
+    the_list = ["hi", "some", "seventeen", "hello", "too" ]
     result = length_of_longest(the_list)
     print(result)
