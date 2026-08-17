@@ -1,4 +1,4 @@
-def most_common_character(my_string: str) :
+def most_common_character(my_string) :
     most_common = my_string[0]
     max_count = 0
 
