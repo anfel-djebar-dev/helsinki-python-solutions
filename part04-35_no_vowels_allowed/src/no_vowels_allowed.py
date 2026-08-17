@@ -1,4 +1,4 @@
-def no_vowels(my_string: str) :
+def no_vowels(my_string) :
     vowels = "aeiou"
     new_string = ""
     
