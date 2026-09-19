@@ -9,15 +9,6 @@ def block_correct(sudoku: list , row_no: int , column_no: int) -> bool :
         n +=1
     return len(block) == len(set(block))
 
-# _________________ The Second Function: ___________________ 
-def sudoku_grid_correct(sudoku: list) -> bool:
-    
-    for r in (0, 3, 6): # It passes through rows (0, 3, 6) and columns (0, 3, 6) which are the starting places of the 9 official blocks in Sudoku
-        for c in (0, 3, 6):
-            if not block_correct(sudoku, r, c) :
-                return False
-    return True
-
 if __name__ == "__main__" :
     sudoku = [
     [9, 0, 0, 0, 8, 0, 3, 0, 0],
